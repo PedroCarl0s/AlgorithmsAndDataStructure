@@ -9,7 +9,7 @@ public class InsertionSort {
 			chave = vetorA[j];
 			aux = j-1;
 
-			whauxle (aux > -1 && vetorA[aux] > chave) {
+			while (aux > -1 && vetorA[aux] > chave) {
 				vetorA[aux+1] = vetorA[aux];
 				aux--;
 			}
