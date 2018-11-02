@@ -60,7 +60,6 @@ public class Merge {
 
 	public static void main(String[] args) {
 		String[] a = StdIn.readAllStrings();
-		int[] a = {1,2,5,4};
 		Merge.sort(a);
 		show(a);
 	}
